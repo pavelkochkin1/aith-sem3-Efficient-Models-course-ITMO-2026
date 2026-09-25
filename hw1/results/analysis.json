@@ -1,0 +1,699 @@
+{
+  "metrics": {
+    "latency_s": {
+      "worst_validation": [
+        {
+          "S": 48,
+          "B": 256,
+          "measured": 0.006199804999994285,
+          "predicted": 0.0035344001165028504,
+          "signed_error_percent": -42.991753506665
+        },
+        {
+          "S": 112,
+          "B": 256,
+          "measured": 0.030082117000006292,
+          "predicted": 0.01716780142010327,
+          "signed_error_percent": -42.93020860167627
+        },
+        {
+          "S": 112,
+          "B": 70,
+          "measured": 0.008509817999993174,
+          "predicted": 0.005014208551217613,
+          "signed_error_percent": -41.07737026547883
+        },
+        {
+          "S": 112,
+          "B": 128,
+          "measured": 0.014777632999994239,
+          "predicted": 0.008804038585601312,
+          "signed_error_percent": -40.42321537146887
+        },
+        {
+          "S": 112,
+          "B": 78,
+          "measured": 0.009164694499986581,
+          "predicted": 0.005536943728373984,
+          "signed_error_percent": -39.58397927631858
+        }
+      ],
+      "validation_by_S": [
+        {
+          "S": 32,
+          "n": 3,
+          "mape_percent": 28.401814786140886
+        },
+        {
+          "S": 48,
+          "n": 12,
+          "mape_percent": 25.075966083082097
+        },
+        {
+          "S": 64,
+          "n": 3,
+          "mape_percent": 32.90812558439561
+        },
+        {
+          "S": 112,
+          "n": 12,
+          "mape_percent": 23.916653654381292
+        },
+        {
+          "S": 128,
+          "n": 3,
+          "mape_percent": 23.56578576889969
+        },
+        {
+          "S": 224,
+          "n": 3,
+          "mape_percent": 26.493499101203287
+        },
+        {
+          "S": 256,
+          "n": 3,
+          "mape_percent": 23.410287650055427
+        },
+        {
+          "S": 384,
+          "n": 3,
+          "mape_percent": 23.715560861580162
+        },
+        {
+          "S": 448,
+          "n": 12,
+          "mape_percent": 17.711784345047022
+        },
+        {
+          "S": 496,
+          "n": 12,
+          "mape_percent": 18.284654616293874
+        },
+        {
+          "S": 512,
+          "n": 3,
+          "mape_percent": 22.84785710544277
+        }
+      ],
+      "validation_by_B": [
+        {
+          "B": 1,
+          "n": 4,
+          "mape_percent": 29.23964329901426
+        },
+        {
+          "B": 2,
+          "n": 4,
+          "mape_percent": 18.4978039121266
+        },
+        {
+          "B": 4,
+          "n": 4,
+          "mape_percent": 7.125497091689852
+        },
+        {
+          "B": 8,
+          "n": 4,
+          "mape_percent": 9.53721338075522
+        },
+        {
+          "B": 16,
+          "n": 4,
+          "mape_percent": 17.078205286630883
+        },
+        {
+          "B": 32,
+          "n": 4,
+          "mape_percent": 11.524499918192177
+        },
+        {
+          "B": 64,
+          "n": 4,
+          "mape_percent": 11.49141152050495
+        },
+        {
+          "B": 65,
+          "n": 11,
+          "mape_percent": 8.778329144199567
+        },
+        {
+          "B": 70,
+          "n": 11,
+          "mape_percent": 35.50351703111681
+        },
+        {
+          "B": 78,
+          "n": 11,
+          "mape_percent": 33.70185036767305
+        },
+        {
+          "B": 128,
+          "n": 4,
+          "mape_percent": 34.58655916110527
+        },
+        {
+          "B": 256,
+          "n": 4,
+          "mape_percent": 37.43837517646107
+        }
+      ]
+    },
+    "energy_j": {
+      "worst_validation": [
+        {
+          "S": 32,
+          "B": 78,
+          "measured": 0.10483050847457627,
+          "predicted": 0.058498092610488064,
+          "signed_error_percent": -44.197454098321806
+        },
+        {
+          "S": 32,
+          "B": 70,
+          "measured": 0.09867364620938629,
+          "predicted": 0.05549216133741802,
+          "signed_error_percent": -43.76192279378913
+        },
+        {
+          "S": 112,
+          "B": 256,
+          "measured": 2.0165820895522386,
+          "predicted": 1.1894063682131224,
+          "signed_error_percent": -41.018698203492534
+        },
+        {
+          "S": 48,
+          "B": 256,
+          "measured": 0.4126996904024768,
+          "predicted": 0.24347272371711184,
+          "signed_error_percent": -41.00486882370322
+        },
+        {
+          "S": 112,
+          "B": 70,
+          "measured": 0.5757574468085106,
+          "predicted": 0.3461558835722979,
+          "signed_error_percent": -39.87817517757182
+        }
+      ],
+      "validation_by_S": [
+        {
+          "S": 32,
+          "n": 3,
+          "mape_percent": 34.620270565028086
+        },
+        {
+          "S": 48,
+          "n": 12,
+          "mape_percent": 15.803214456640461
+        },
+        {
+          "S": 64,
+          "n": 3,
+          "mape_percent": 24.42200336530004
+        },
+        {
+          "S": 112,
+          "n": 12,
+          "mape_percent": 18.83657646595213
+        },
+        {
+          "S": 128,
+          "n": 3,
+          "mape_percent": 21.250878781647884
+        },
+        {
+          "S": 224,
+          "n": 3,
+          "mape_percent": 22.886425630886084
+        },
+        {
+          "S": 256,
+          "n": 3,
+          "mape_percent": 21.539601474574994
+        },
+        {
+          "S": 384,
+          "n": 3,
+          "mape_percent": 20.77069795672931
+        },
+        {
+          "S": 448,
+          "n": 12,
+          "mape_percent": 17.68082773440582
+        },
+        {
+          "S": 496,
+          "n": 12,
+          "mape_percent": 16.67829726969117
+        },
+        {
+          "S": 512,
+          "n": 3,
+          "mape_percent": 22.741861885119746
+        }
+      ],
+      "validation_by_B": [
+        {
+          "B": 1,
+          "n": 4,
+          "mape_percent": 17.78341191809553
+        },
+        {
+          "B": 2,
+          "n": 4,
+          "mape_percent": 13.181730827480918
+        },
+        {
+          "B": 4,
+          "n": 4,
+          "mape_percent": 5.408399125205748
+        },
+        {
+          "B": 8,
+          "n": 4,
+          "mape_percent": 4.1515602751897
+        },
+        {
+          "B": 16,
+          "n": 4,
+          "mape_percent": 11.383633718313014
+        },
+        {
+          "B": 32,
+          "n": 4,
+          "mape_percent": 6.247790697197164
+        },
+        {
+          "B": 64,
+          "n": 4,
+          "mape_percent": 5.929765344756957
+        },
+        {
+          "B": 65,
+          "n": 11,
+          "mape_percent": 5.360580721393929
+        },
+        {
+          "B": 70,
+          "n": 11,
+          "mape_percent": 34.26792279945938
+        },
+        {
+          "B": 78,
+          "n": 11,
+          "mape_percent": 32.73415489947046
+        },
+        {
+          "B": 128,
+          "n": 4,
+          "mape_percent": 34.460908140364154
+        },
+        {
+          "B": 256,
+          "n": 4,
+          "mape_percent": 35.626041822039824
+        }
+      ]
+    },
+    "memory_bytes": {
+      "worst_validation": [
+        {
+          "S": 32,
+          "B": 78,
+          "measured": 42409984.0,
+          "predicted": 8314640.0,
+          "signed_error_percent": -80.39461651294187
+        },
+        {
+          "S": 112,
+          "B": 1,
+          "measured": 24273920.0,
+          "predicted": 4813584.0,
+          "signed_error_percent": -80.1697294874499
+        },
+        {
+          "S": 32,
+          "B": 70,
+          "measured": 38626304.0,
+          "predicted": 7888656.0,
+          "signed_error_percent": -79.57698463720475
+        },
+        {
+          "S": 112,
+          "B": 2,
+          "measured": 24725504.0,
+          "predicted": 5465872.0,
+          "signed_error_percent": -77.89378934399073
+        },
+        {
+          "S": 48,
+          "B": 78,
+          "measured": 46802944.0,
+          "predicted": 13506320.0,
+          "signed_error_percent": -71.14215721130705
+        }
+      ],
+      "validation_by_S": [
+        {
+          "S": 32,
+          "n": 3,
+          "mape_percent": 72.739457460265
+        },
+        {
+          "S": 48,
+          "n": 12,
+          "mape_percent": 64.60802898279405
+        },
+        {
+          "S": 64,
+          "n": 3,
+          "mape_percent": 55.14560742326203
+        },
+        {
+          "S": 112,
+          "n": 12,
+          "mape_percent": 50.731915919508566
+        },
+        {
+          "S": 128,
+          "n": 3,
+          "mape_percent": 54.0877390899356
+        },
+        {
+          "S": 224,
+          "n": 3,
+          "mape_percent": 52.51796400840658
+        },
+        {
+          "S": 256,
+          "n": 3,
+          "mape_percent": 52.354424217068164
+        },
+        {
+          "S": 384,
+          "n": 3,
+          "mape_percent": 46.35112657303578
+        },
+        {
+          "S": 448,
+          "n": 12,
+          "mape_percent": 42.16508753309521
+        },
+        {
+          "S": 496,
+          "n": 12,
+          "mape_percent": 40.52218902217246
+        },
+        {
+          "S": 512,
+          "n": 3,
+          "mape_percent": 47.64997237444311
+        }
+      ],
+      "validation_by_B": [
+        {
+          "B": 1,
+          "n": 4,
+          "mape_percent": 60.288973308825426
+        },
+        {
+          "B": 2,
+          "n": 4,
+          "mape_percent": 56.04104900993399
+        },
+        {
+          "B": 4,
+          "n": 4,
+          "mape_percent": 49.40354473990247
+        },
+        {
+          "B": 8,
+          "n": 4,
+          "mape_percent": 44.45259145335699
+        },
+        {
+          "B": 16,
+          "n": 4,
+          "mape_percent": 48.96028094371175
+        },
+        {
+          "B": 32,
+          "n": 4,
+          "mape_percent": 45.323031758496775
+        },
+        {
+          "B": 64,
+          "n": 4,
+          "mape_percent": 41.93315054108098
+        },
+        {
+          "B": 65,
+          "n": 11,
+          "mape_percent": 49.999525435076514
+        },
+        {
+          "B": 70,
+          "n": 11,
+          "mape_percent": 53.7792967263928
+        },
+        {
+          "B": 78,
+          "n": 11,
+          "mape_percent": 51.72590257041613
+        },
+        {
+          "B": 128,
+          "n": 4,
+          "mape_percent": 52.95613286367306
+        },
+        {
+          "B": 256,
+          "n": 4,
+          "mape_percent": 52.71963510085668
+        }
+      ]
+    }
+  },
+  "transition_S512_B65_to_B70": {
+    "latency_s": {
+      "measured": [
+        0.0834034664999308,
+        0.14233930850002707
+      ],
+      "predicted": [
+        0.08907328629126303,
+        0.09589121017896794
+      ],
+      "measured_change_percent": 70.66354010614795,
+      "predicted_change_percent": 7.654285781497738
+    },
+    "energy_j": {
+      "measured": [
+        5.6894583333333335,
+        9.728714285714286
+      ],
+      "predicted": [
+        6.1784362668356865,
+        6.651484937312051
+      ],
+      "measured_change_percent": 70.99543956084196,
+      "predicted_change_percent": 7.656446551299267
+    },
+    "memory_bytes": {
+      "measured": [
+        1798406144.0,
+        1844543488.0
+      ],
+      "predicted": [
+        890208016.0,
+        958365456.0
+      ],
+      "measured_change_percent": 2.565457427618756,
+      "predicted_change_percent": 7.65634983902459
+    }
+  },
+  "kernel_changes_B65_to_B70": [
+    {
+      "S": 32,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 48,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 48,
+      "layer": "layer_06:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x64_relu_xregs_large_nn_v1"
+      ],
+      "added": [
+        "_5x_cudnn_volta_scudnn_128x128_relu_medium_nn_v1"
+      ]
+    },
+    {
+      "S": 64,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 112,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 128,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 224,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 256,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 384,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 448,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 496,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    },
+    {
+      "S": 512,
+      "layer": "layer_01:Conv2d",
+      "removed": [
+        "_5x_cudnn_volta_scudnn_128x32_relu_medium_nn_v1",
+        "void cask__5x_cudnn::computeOffsetsKernel<false, false>(cask__5x_cudnn::ComputeOffsetsParams)"
+      ],
+      "added": [
+        "void fft2d_c2r_32x32<float, true, false, 0u, false, false>(float*, float2 const*, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, float*, float*, int2, cudnnActivationStruct, int, int)",
+        "void fft2d_r2c_32x32<float, false, 0u, false>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "void fft2d_r2c_32x32<float, false, 1u, true>(float2*, float const*, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int)",
+        "volta_gcgemm_32x32_nt"
+      ]
+    }
+  ],
+  "roofline_threshold_FLOP_per_byte": 80.84210504868352,
+  "provenance": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "sha256": {
+      "results/measurements.csv": "d058faae68efa3fd81e045f2b672753f42768b05183c4a41918e0c3eb059bd9e",
+      "results/predictions.csv": "2a8a4f6e7f6a5e02e417363f09c74589c7d8b5d16abbeb365f30fad377541f55",
+      "results/theta.json": "94f59dd6081e66650646711ac5a2ceadb54811465ad97a2de37d2c846604d265",
+      "results/latency_samples.csv": "837fa50b8d1699b6cb3a0681003aff79d1f76e60010cef3878d66467736eaf1d",
+      "results/kernels.csv": "844a0501f7444f089e4cf976f646cbb4805b5ab0cb080bea03085ac7cb35e14c",
+      "results/environment.json": "75bc9dd684aee3959aaa2d72d4f6150da031074414b224e344efe405f85dd2b9",
+      "results/protocol.json": "b22bd98b431d12e97c67dc3fccf407ebd4f534c4edd031640e66efde2e748413",
+      "plot_results.py": "a6c37f18ae1d0c6ce6c2d7c8e62bada368c8ffda0675e19d9276150843efd498",
+      "equations.py": "066147de48436d7909f46111b89196bd40f6ae810ab716720bbf15551ffe0ac0",
+      "requirements-plots.txt": "66f71c864985e4331d2f7f854eb0451184e560cb52d981898e00b8c7a39ad11b"
+    }
+  }
+}

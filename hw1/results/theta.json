@@ -1,0 +1,66 @@
+{
+  "latency": {
+    "t0": 0.0004315042054130903,
+    "C": 7170361983791.84,
+    "beta": 88695884149.40224
+  },
+  "energy": {
+    "latency": {
+      "t0": 0.0004315042054130903,
+      "C": 7170361983791.84,
+      "beta": 88695884149.40224
+    },
+    "P0": 65.42161491073215,
+    "eps_F": 1.1607741576413948e-12,
+    "eps_Q": 0.0
+  },
+  "fit_diagnostics": {
+    "latency": {
+      "n": 63,
+      "method": "scipy.optimize.least_squares",
+      "starts": 9,
+      "converged_starts": 9,
+      "mean_squared_relative_error": 0.06202767780901287,
+      "termination": "`xtol` termination condition is satisfied.",
+      "column_normalized_rank": 3,
+      "column_normalized_condition_number": 33.067287076583504
+    },
+    "energy": {
+      "n": 63,
+      "method": "scipy.optimize.nnls",
+      "mean_squared_relative_error": 0.04069657260290478,
+      "zero_coefficients": [
+        "eps_Q"
+      ],
+      "column_normalized_rank": 3,
+      "column_normalized_condition_number": 1103.431229757952
+    }
+  },
+  "units": {
+    "t0": "s",
+    "C": "FLOP/s",
+    "beta": "byte/s",
+    "P0": "W",
+    "eps_F": "J/FLOP",
+    "eps_Q": "J/byte"
+  },
+  "method": {
+    "objective": "mean squared relative error; equal weight per configuration",
+    "split": "is_validation from measurements.csv; no fitting on validation",
+    "constraints": "t0>=0, C>0, beta>0, P0>=0, eps_F>=0, eps_Q>=0",
+    "latency_variables": "[t0/1e-3, 1e12/C, 1e11/beta]; lower bounds [0, 1e-12, 1e-12]",
+    "energy_time": "predicted latency with frozen calibrated parameters"
+  },
+  "provenance": {
+    "python": "3.12.11",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sha256": {
+      "results/measurements.csv": "d058faae68efa3fd81e045f2b672753f42768b05183c4a41918e0c3eb059bd9e",
+      "results/environment.json": "75bc9dd684aee3959aaa2d72d4f6150da031074414b224e344efe405f85dd2b9",
+      "equations.py": "066147de48436d7909f46111b89196bd40f6ae810ab716720bbf15551ffe0ac0",
+      "calibrate.py": "5f9bd35471f1543c2a3d3dd5ca15b56bcf1aa34d5221d7de723838778444c2c8",
+      "requirements-calibration.txt": "6e69ffe6f7841e5d8aea3f05a4bf77c60055d3b0717fcccbb31fd19647e07b7b"
+    }
+  }
+}

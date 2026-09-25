@@ -1,0 +1,59 @@
+{
+  "latency_s": {
+    "rmse_unit": "s",
+    "calibration": {
+      "n": 63,
+      "mape_percent": 19.621478320077284,
+      "median_ape_percent": 17.833346941603878,
+      "p95_ape_percent": 45.64743145499381,
+      "relative_rmse_percent": 24.90535641363377,
+      "rmse": 0.02473968792186608
+    },
+    "validation": {
+      "n": 69,
+      "mape_percent": 22.665181115345,
+      "median_ape_percent": 27.75526506783745,
+      "p95_ape_percent": 40.08752093340874,
+      "relative_rmse_percent": 26.424143421112888,
+      "rmse": 0.030164773309836062
+    }
+  },
+  "energy_j": {
+    "rmse_unit": "J",
+    "calibration": {
+      "n": 63,
+      "mape_percent": 15.969347147122498,
+      "median_ape_percent": 14.103923440341129,
+      "p95_ape_percent": 36.12111171395449,
+      "relative_rmse_percent": 20.173391535114956,
+      "rmse": 1.6494223616285888
+    },
+    "validation": {
+      "n": 69,
+      "mape_percent": 19.314234928958456,
+      "median_ape_percent": 16.056899006124528,
+      "p95_ape_percent": 40.55419136525066,
+      "relative_rmse_percent": 23.73742894379682,
+      "rmse": 1.9982254668803157
+    }
+  },
+  "memory_bytes": {
+    "rmse_unit": "byte",
+    "calibration": {
+      "n": 63,
+      "mape_percent": 52.9712862120014,
+      "median_ape_percent": 49.04894472947761,
+      "p95_ape_percent": 80.8682688837466,
+      "relative_rmse_percent": 54.89823309364815,
+      "rmse": 467199713.24632347
+    },
+    "validation": {
+      "n": 69,
+      "mape_percent": 50.998051172899885,
+      "median_ape_percent": 49.21557134113406,
+      "p95_ape_percent": 75.19313649091721,
+      "relative_rmse_percent": 52.578081868480695,
+      "rmse": 519833279.4913414
+    }
+  }
+}
