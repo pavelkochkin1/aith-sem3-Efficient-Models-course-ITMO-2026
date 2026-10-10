@@ -1,0 +1,13 @@
+model,method,seed,epochs,steps,train_samples,test_samples,width,test_accuracy,test_loss,train_loss,seconds,directory
+transformer,standard,0,10,4690,60000,10000,64,0.9808,0.06319668788909912,0.03914265117123723,128.6850734479999,hw2/results/transformer/transformer_standard_seed0
+transformer,standard,1,10,4690,60000,10000,64,0.9693,0.11061382713317872,0.04704650267213583,128.79959688100007,hw2/results/transformer/transformer_standard_seed1
+transformer,standard,2,10,4690,60000,10000,64,0.9775,0.0800338586807251,0.04397222277174393,128.82565060800016,hw2/results/transformer/transformer_standard_seed2
+transformer,identity,0,10,4690,60000,10000,64,0.9695,0.09867357749938965,0.07446267256538074,129.3359570790003,hw2/results/transformer/transformer_identity_seed0
+transformer,identity,1,10,4690,60000,10000,64,0.9712,0.09657263088226319,0.06898124232888221,128.61822522900002,hw2/results/transformer/transformer_identity_seed1
+transformer,identity,2,10,4690,60000,10000,64,0.9683,0.10503868980407714,0.07232417289714019,129.8153434040005,hw2/results/transformer/transformer_identity_seed2
+transformer,zero_inspired,0,10,4690,60000,10000,64,0.9731,0.08642936153411865,0.046257528082529704,130.02360320700063,hw2/results/transformer/transformer_zero_inspired_seed0
+transformer,zero_inspired,1,10,4690,60000,10000,64,0.9718,0.08860646781921387,0.047981708713372546,130.34024270999998,hw2/results/transformer/transformer_zero_inspired_seed1
+transformer,zero_inspired,2,10,4690,60000,10000,64,0.9709,0.09970937461853027,0.0488004036496083,129.63455264000004,hw2/results/transformer/transformer_zero_inspired_seed2
+transformer,zero_inspired_author,0,10,4690,60000,10000,64,0.9783,0.07043261795043945,0.04617104080617428,130.4187417509993,hw2/results/transformer/transformer_zero_inspired_author_seed0
+transformer,zero_inspired_author,1,10,4690,60000,10000,64,0.9736,0.08615408229827881,0.045818445789814,129.55090530899997,hw2/results/transformer/transformer_zero_inspired_author_seed1
+transformer,zero_inspired_author,2,10,4690,60000,10000,64,0.9783,0.07659137191772461,0.04975453603665034,129.4771844349998,hw2/results/transformer/transformer_zero_inspired_author_seed2

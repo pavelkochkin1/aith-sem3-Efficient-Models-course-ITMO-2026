@@ -1,0 +1,46 @@
+[
+  {
+    "step": 0,
+    "probe_loss": 2.587005615234375,
+    "gradient_norms": {
+      "first.weight": 2.5914671421051025,
+      "hidden.weight": 2.1925392150878906,
+      "output.weight": 2.2868473529815674
+    },
+    "feature_zero_fraction": 0.5034027099609375,
+    "feature_rms": 0.14913074672222137
+  },
+  {
+    "step": 1,
+    "probe_loss": 2.320626735687256,
+    "gradient_norms": {
+      "first.weight": 1.2647228240966797,
+      "hidden.weight": 0.8017480969429016,
+      "output.weight": 0.9699297547340393
+    },
+    "feature_zero_fraction": 0.5019302368164062,
+    "feature_rms": 0.14054957032203674
+  },
+  {
+    "step": 10,
+    "probe_loss": 1.3685084581375122,
+    "gradient_norms": {
+      "first.weight": 1.2052388191223145,
+      "hidden.weight": 0.8291804790496826,
+      "output.weight": 0.7874998450279236
+    },
+    "feature_zero_fraction": 0.24526214599609375,
+    "feature_rms": 0.14654332399368286
+  },
+  {
+    "step": 100,
+    "probe_loss": 0.4014032483100891,
+    "gradient_norms": {
+      "first.weight": 0.8525762557983398,
+      "hidden.weight": 0.642181396484375,
+      "output.weight": 0.6110637784004211
+    },
+    "feature_zero_fraction": 0.231201171875,
+    "feature_rms": 0.21861346065998077
+  }
+]

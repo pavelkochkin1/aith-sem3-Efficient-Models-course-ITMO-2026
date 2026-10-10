@@ -1,0 +1,3 @@
+model,method,seed,epochs,steps,train_samples,test_samples,width,test_accuracy,test_loss,train_loss,seconds,directory
+mlp,identity,0,14,13132,60000,10000,2048,0.9822,0.05727952585220337,0.010789572301817436,183.78606004199992,hw2/results/controls/mlp_identity_seed0
+mlp,zero_all,0,14,13132,60000,10000,2048,0.098,2.302585205078125,2.3025851249694824,143.39291109999976,hw2/results/controls/mlp_zero_all_seed0

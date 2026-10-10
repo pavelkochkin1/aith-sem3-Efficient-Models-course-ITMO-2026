@@ -1,0 +1,178 @@
+[
+  {
+    "step": 0,
+    "probe_loss": 2.8345088958740234,
+    "gradient_norms": {
+      "patch.weight": 0.8751279711723328,
+      "blocks.0.norm1.weight": 0.24376562237739563,
+      "blocks.0.norm1.bias": 0.346040815114975,
+      "blocks.0.attention.q.weight": 0.48834139108657837,
+      "blocks.0.attention.k.weight": 0.42896488308906555,
+      "blocks.0.attention.v.weight": 2.0777981281280518,
+      "blocks.0.attention.out.weight": 2.076824426651001,
+      "blocks.0.norm2.weight": 0.1057005450129509,
+      "blocks.0.norm2.bias": 0.12673023343086243,
+      "blocks.0.ff1.weight": 1.593759298324585,
+      "blocks.0.ff2.weight": 1.844981074333191,
+      "blocks.1.norm1.weight": 0.16033928096294403,
+      "blocks.1.norm1.bias": 0.22789008915424347,
+      "blocks.1.attention.q.weight": 0.1848304122686386,
+      "blocks.1.attention.k.weight": 0.175611674785614,
+      "blocks.1.attention.v.weight": 1.4558840990066528,
+      "blocks.1.attention.out.weight": 1.746761679649353,
+      "blocks.1.norm2.weight": 0.10590540617704391,
+      "blocks.1.norm2.bias": 0.11360074579715729,
+      "blocks.1.ff1.weight": 1.3505420684814453,
+      "blocks.1.ff2.weight": 1.6137192249298096,
+      "norm.weight": 0.36471861600875854,
+      "norm.bias": 0.3326120376586914,
+      "output.weight": 1.6491663455963135
+    },
+    "feature_zero_fraction": 0.0,
+    "feature_rms": 0.9124294519424438,
+    "attention": [
+      {
+        "block": 0,
+        "attention_entropy": 2.6097679138183594,
+        "head_attention_difference": 0.03026340715587139
+      },
+      {
+        "block": 1,
+        "attention_entropy": 2.6606907844543457,
+        "head_attention_difference": 0.027575965970754623
+      }
+    ]
+  },
+  {
+    "step": 1,
+    "probe_loss": 2.672863721847534,
+    "gradient_norms": {
+      "patch.weight": 0.6458224654197693,
+      "blocks.0.norm1.weight": 0.31770700216293335,
+      "blocks.0.norm1.bias": 0.44023486971855164,
+      "blocks.0.attention.q.weight": 0.3557649850845337,
+      "blocks.0.attention.k.weight": 0.29286396503448486,
+      "blocks.0.attention.v.weight": 2.596668004989624,
+      "blocks.0.attention.out.weight": 2.7839198112487793,
+      "blocks.0.norm2.weight": 0.1482749581336975,
+      "blocks.0.norm2.bias": 0.17457076907157898,
+      "blocks.0.ff1.weight": 2.3092544078826904,
+      "blocks.0.ff2.weight": 2.638997793197632,
+      "blocks.1.norm1.weight": 0.37820398807525635,
+      "blocks.1.norm1.bias": 0.36708420515060425,
+      "blocks.1.attention.q.weight": 0.21582506597042084,
+      "blocks.1.attention.k.weight": 0.23608750104904175,
+      "blocks.1.attention.v.weight": 2.4858784675598145,
+      "blocks.1.attention.out.weight": 2.0555243492126465,
+      "blocks.1.norm2.weight": 0.15132012963294983,
+      "blocks.1.norm2.bias": 0.1377113163471222,
+      "blocks.1.ff1.weight": 1.7093178033828735,
+      "blocks.1.ff2.weight": 1.7939249277114868,
+      "norm.weight": 0.3009410500526428,
+      "norm.bias": 0.38926470279693604,
+      "output.weight": 2.079047918319702
+    },
+    "feature_zero_fraction": 0.0,
+    "feature_rms": 0.9263912439346313,
+    "attention": [
+      {
+        "block": 0,
+        "attention_entropy": 2.615117073059082,
+        "head_attention_difference": 0.02962382696568966
+      },
+      {
+        "block": 1,
+        "attention_entropy": 2.6696882247924805,
+        "head_attention_difference": 0.02730124443769455
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "probe_loss": 2.1700148582458496,
+    "gradient_norms": {
+      "patch.weight": 0.3078870177268982,
+      "blocks.0.norm1.weight": 0.0841507539153099,
+      "blocks.0.norm1.bias": 0.1286316066980362,
+      "blocks.0.attention.q.weight": 0.14773418009281158,
+      "blocks.0.attention.k.weight": 0.1317085325717926,
+      "blocks.0.attention.v.weight": 0.6911605000495911,
+      "blocks.0.attention.out.weight": 0.7027841806411743,
+      "blocks.0.norm2.weight": 0.04269983619451523,
+      "blocks.0.norm2.bias": 0.04926715046167374,
+      "blocks.0.ff1.weight": 0.5533587336540222,
+      "blocks.0.ff2.weight": 0.6218587160110474,
+      "blocks.1.norm1.weight": 0.0688566192984581,
+      "blocks.1.norm1.bias": 0.08851119130849838,
+      "blocks.1.attention.q.weight": 0.04776712507009506,
+      "blocks.1.attention.k.weight": 0.04758179932832718,
+      "blocks.1.attention.v.weight": 0.6735026240348816,
+      "blocks.1.attention.out.weight": 0.6440427303314209,
+      "blocks.1.norm2.weight": 0.030850375071167946,
+      "blocks.1.norm2.bias": 0.03603411838412285,
+      "blocks.1.ff1.weight": 0.42338770627975464,
+      "blocks.1.ff2.weight": 0.5435896515846252,
+      "norm.weight": 0.16419821977615356,
+      "norm.bias": 0.15550214052200317,
+      "output.weight": 0.8360058665275574
+    },
+    "feature_zero_fraction": 0.0,
+    "feature_rms": 0.9643000960350037,
+    "attention": [
+      {
+        "block": 0,
+        "attention_entropy": 2.5748047828674316,
+        "head_attention_difference": 0.029723307117819786
+      },
+      {
+        "block": 1,
+        "attention_entropy": 2.6823925971984863,
+        "head_attention_difference": 0.026660075411200523
+      }
+    ]
+  },
+  {
+    "step": 100,
+    "probe_loss": 0.5115852952003479,
+    "gradient_norms": {
+      "patch.weight": 0.897637128829956,
+      "blocks.0.norm1.weight": 0.2331668734550476,
+      "blocks.0.norm1.bias": 0.30164873600006104,
+      "blocks.0.attention.q.weight": 0.4872092008590698,
+      "blocks.0.attention.k.weight": 0.5172149538993835,
+      "blocks.0.attention.v.weight": 1.6699212789535522,
+      "blocks.0.attention.out.weight": 1.0881866216659546,
+      "blocks.0.norm2.weight": 0.07969371974468231,
+      "blocks.0.norm2.bias": 0.0950225293636322,
+      "blocks.0.ff1.weight": 0.7755445837974548,
+      "blocks.0.ff2.weight": 0.8419766426086426,
+      "blocks.1.norm1.weight": 0.08106344938278198,
+      "blocks.1.norm1.bias": 0.11159636825323105,
+      "blocks.1.attention.q.weight": 0.15376488864421844,
+      "blocks.1.attention.k.weight": 0.23672810196876526,
+      "blocks.1.attention.v.weight": 0.5798504948616028,
+      "blocks.1.attention.out.weight": 0.5129410028457642,
+      "blocks.1.norm2.weight": 0.033804673701524734,
+      "blocks.1.norm2.bias": 0.04898608475923538,
+      "blocks.1.ff1.weight": 0.33734819293022156,
+      "blocks.1.ff2.weight": 0.37894943356513977,
+      "norm.weight": 0.06039457768201828,
+      "norm.bias": 0.08635764569044113,
+      "output.weight": 0.37836024165153503
+    },
+    "feature_zero_fraction": 0.0,
+    "feature_rms": 0.8620057106018066,
+    "attention": [
+      {
+        "block": 0,
+        "attention_entropy": 1.9876772165298462,
+        "head_attention_difference": 0.05026128888130188
+      },
+      {
+        "block": 1,
+        "attention_entropy": 1.4937644004821777,
+        "head_attention_difference": 0.07525655627250671
+      }
+    ]
+  }
+]
