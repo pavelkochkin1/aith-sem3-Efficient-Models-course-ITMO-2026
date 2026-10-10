@@ -1,5 +1,7 @@
 # ДЗ №2: ZerO
 
+Источник — [ZerO Initialization: Initializing Neural Networks with only Zeros and Ones](https://arxiv.org/pdf/2110.12661)
+
 [Отчет](report.pdf): идея статьи, воспроизведение на MNIST и дополнительный опыт с Transformer.
 
 ## Что получилось
